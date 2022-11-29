@@ -4,6 +4,7 @@ eureka:
       defaultZone: http://192.168.4.45:8761/eureka
   instance:
     instance-id: instance1
+    hostname: http://localhost
 server:
   port: 9092
 spring:
